@@ -1,0 +1,21 @@
+﻿<controls:MetroWindow x:Class="MahAppsWindowApp.MainWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
+                      EnableDWMDropShadow="True"
+                      Title="MahApps Window" 
+                      Height="350" Width="525">
+    <controls:MetroWindow.IconTemplate>
+        <DataTemplate>
+            <dragablz:DragablzIcon />
+        </DataTemplate>
+    </controls:MetroWindow.IconTemplate>
+    <dragablz:TabablzControl ItemsSource="{Binding TabContents}"  x:Name="InitialTabablzControl"
+                             Margin="4 0 4 4">
+        <dragablz:TabablzControl.InterTabController>
+            <dragablz:InterTabController InterTabClient="{Binding InterTabClient}" />
+        </dragablz:TabablzControl.InterTabController>
+    </dragablz:TabablzControl>    
+</controls:MetroWindow>
+
