@@ -9,8 +9,8 @@ The code also illsutares a potential way you can use MVVM to populate your tabs.
 
 DragablzWindow:
 
-![Alt text](https://dragablz.files.wordpress.com/2015/01/dragablzmeetsmahapps_dw.gif "Using DragablzWindow")
+![Alt text](https://dragablz.files.wordpress.com/2015/01/dragablzmeetsmahapps_dw1.gif "Using DragablzWindow")
 
 MetrowWindow:
 
-![Alt text](https://dragablz.files.wordpress.com/2015/01/dragablzmeetsmahapps_mw.gif "Using MetroWindow")
+![Alt text](https://dragablz.files.wordpress.com/2015/01/dragablzmeetsmahapps_mw1.gif "Using MetroWindow")
