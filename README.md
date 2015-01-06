@@ -11,6 +11,6 @@ DragablzWindow:
 
 ![Alt text](https://dragablz.files.wordpress.com/2015/01/dragablzmeetsmahapps_dw1.gif "Using DragablzWindow")
 
-MetrowWindow:
+MetroWindow:
 
 ![Alt text](https://dragablz.files.wordpress.com/2015/01/dragablzmeetsmahapps_mw1.gif "Using MetroWindow")
