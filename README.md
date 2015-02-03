@@ -19,3 +19,7 @@ DragablzWindow:
 MetroWindow:
 
 ![Alt text](https://dragablz.files.wordpress.com/2015/01/dragablzmeetsmahapps_mw1.gif "Using MetroWindow")
+
+MahApps styles for Dragablz controls
+
+![Alt text](https://dragablz.files.wordpress.com/2015/02/mahappsstylez2.gif "https://dragablz.files.wordpress.com/2015/02/mahappsstylez2.gif")
