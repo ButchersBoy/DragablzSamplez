@@ -26,9 +26,7 @@ namespace Common
             var result = new MainWindowViewModel();
             
             result.TabContents.Add(new TabContent("Introduction", new IntroductionPage()));
-            result.TabContents.Add(new TabContent("Introduction", new IntroductionPage()));
-            result.TabContents.Add(new TabContent("Introduction", new IntroductionPage()));
-            result.TabContents.Add(new TabContent("Introduction", new IntroductionPage()));
+            result.TabContents.Add(new TabContent("Introduction", new IntroductionPage()));   
 
             return result;
         }
@@ -41,6 +39,11 @@ namespace Common
         public IInterTabClient InterTabClient
         {
             get { return _interTabClient; }
+        }
+
+        public Func<object> NewItemFactory
+        {
+            get { return () => new TabContent("Introduction", new IntroductionPage()); }
         }
     }
 }
