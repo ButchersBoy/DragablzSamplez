@@ -10,7 +10,7 @@ There are three runnable projects in the solution so try them all:
 	* StylezApp          - showcases custom styles in Dragablz, specific designed for MahApps
 
 
-The code also illsutares a potential way you can use MVVM to populate your tabs.
+The code also illustrates a potential way you can use MVVM to populate your tabs.
 
 DragablzWindow:
 
