@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"        
         Title="Dragablz Window" Height="350" Width="525">
-    <dragablz:TabablzControl ItemsSource="{Binding TabContents}" x:Name="InitialTabablzControl">
+    <dragablz:TabablzControl ItemsSource="{Binding TabContents}" x:Name="InitialTabablzControl" ItemContainerStyle="{StaticResource TrapezoidDragableTabItemStyle}">
         <dragablz:TabablzControl.InterTabController>
             <dragablz:InterTabController InterTabClient="{Binding InterTabClient}" />
         </dragablz:TabablzControl.InterTabController>

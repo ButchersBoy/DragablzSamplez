@@ -34,9 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Dragablz, Version=0.0.0.77, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Dragablz, Version=0.0.0.78, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Dragablz.0.0.0.77\lib\net45\Dragablz.dll</HintPath>
+      <HintPath>..\packages\Dragablz.0.0.0.78\lib\net45\Dragablz.dll</HintPath>
     </Reference>
     <Reference Include="MahApps.Metro, Version=1.0.1.40, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -65,10 +65,6 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="ThemeManagement.cs" />
-    <Page Include="Dictionary1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

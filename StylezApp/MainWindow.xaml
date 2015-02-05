@@ -5,6 +5,7 @@
         xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:dockablz="clr-namespace:Dragablz.Dockablz;assembly=Dragablz"
         xmlns:stylezApp="clr-namespace:StylezApp"
+        xmlns:common="clr-namespace:Common;assembly=Common"
         Title="Stylez Window" Height="350" Width="525"
                       WindowTransitionsEnabled="False">
     <controls:MetroWindow.Resources>
@@ -63,10 +64,16 @@
             </dragablz:HeaderedItemViewModel>
         </dockablz:Layout.FloatingItems>
         <dragablz:TabablzControl ItemsSource="{Binding TabContents}"  x:Name="InitialTabablzControl"                                 
+                                 HeaderMemberPath="Header"
                                  Margin="4 0 4 4">
             <dragablz:TabablzControl.InterTabController>
                 <dragablz:InterTabController InterTabClient="{Binding InterTabClient}" />
             </dragablz:TabablzControl.InterTabController>
+            <dragablz:TabablzControl.ContentTemplate>
+                <DataTemplate DataType="{x:Type common:TabContent}">
+                    <ContentControl Content="{Binding Content}" Margin="4 4 4 4" FontSize="14" />
+                </DataTemplate>
+            </dragablz:TabablzControl.ContentTemplate>
         </dragablz:TabablzControl>
     </dockablz:Layout>
 </controls:MetroWindow>
