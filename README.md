@@ -1,13 +1,14 @@
-Dragablz Meetz MahApps
+Dragablz Samplez
 =
 
-Demo applications to show [Dragablz](https://github.com/ButchersBoy/Dragablz) and [MahApps](https://github.com/MahApps/MahApps.Metro) being used together.
+Demo applications to show [Dragablz](https://github.com/ButchersBoy/Dragablz) usages and techniques, integration with [MahApps](https://github.com/MahApps/MahApps.Metro), and other stuff.
 
-There are three runnable projects in the solution so try them all:
+Runnable projects in solution:
 
-	* DragablzWindowApp - } show same code running { - DragablzWindow
-	* MahAppsWindowApp  - }                        { - MetroWindow
-	* StylezApp          - showcases custom styles in Dragablz, specific designed for MahApps
+* MahApps integration:
+  * DragablzWindowApp - } show same code running { - DragablzWindow
+  * MahAppsWindowApp  - }                        { - MetroWindow
+  * StylezApp          - showcases custom styles in Dragablz, specific designed for MahApps
 
 
 The code also illustrates a potential way you can use MVVM to populate your tabs.
