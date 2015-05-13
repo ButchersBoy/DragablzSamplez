@@ -5,6 +5,7 @@ Demo applications to show [Dragablz](https://github.com/ButchersBoy/Dragablz) us
 
 Runnable projects in solution:
 
+* OptionalCloseButton - shows advanced usage of optional close buttons on tab headers
 * MahApps integration:
   * DragablzWindowApp - } show same code running { - DragablzWindow
   * MahAppsWindowApp  - }                        { - MetroWindow
