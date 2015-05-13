@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragablzWindowApp", "DragablzWindowApp\DragablzWindowApp.csproj", "{499E3512-A0DB-45F2-A5A3-21D0BE38AB1B}"
 EndProject
@@ -15,6 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StylezApp", "StylezApp\StylezApp.csproj", "{863124E1-72FF-4BBE-A51B-D33C80E78DC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MahApps", "MahApps", "{06BCD589-B1E2-4DCF-B268-9F10A9758686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalCloseButton", "OptionalCloseButton\OptionalCloseButton.csproj", "{08A8E4FA-6C30-4198-9D88-01F0DB35A7F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragablz.net45", "..\..\Dragablz\Dragablz\Dragablz.net45.csproj", "{7B11011C-7FD7-4AB0-A1AD-04E940B026DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,8 +44,21 @@ Global
 		{863124E1-72FF-4BBE-A51B-D33C80E78DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{863124E1-72FF-4BBE-A51B-D33C80E78DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{863124E1-72FF-4BBE-A51B-D33C80E78DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A8E4FA-6C30-4198-9D88-01F0DB35A7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A8E4FA-6C30-4198-9D88-01F0DB35A7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A8E4FA-6C30-4198-9D88-01F0DB35A7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A8E4FA-6C30-4198-9D88-01F0DB35A7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B11011C-7FD7-4AB0-A1AD-04E940B026DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B11011C-7FD7-4AB0-A1AD-04E940B026DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B11011C-7FD7-4AB0-A1AD-04E940B026DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B11011C-7FD7-4AB0-A1AD-04E940B026DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{499E3512-A0DB-45F2-A5A3-21D0BE38AB1B} = {06BCD589-B1E2-4DCF-B268-9F10A9758686}
+		{9BF90D61-BC75-44B9-B3FF-CDE568C1B94F} = {06BCD589-B1E2-4DCF-B268-9F10A9758686}
+		{863124E1-72FF-4BBE-A51B-D33C80E78DC8} = {06BCD589-B1E2-4DCF-B268-9F10A9758686}
 	EndGlobalSection
 EndGlobal
