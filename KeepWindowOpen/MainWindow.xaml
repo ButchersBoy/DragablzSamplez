@@ -1,0 +1,52 @@
+﻿<Window x:Class="KeepWindowOpen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
+        xmlns:keepWindowOpen="clr-namespace:KeepWindowOpen"
+        Title="MAIN WINDOW" Height="350" Width="525">
+    
+    <Window.Resources>
+        <Style TargetType="{x:Type dragablz:TabablzControl}" x:Key="TabStyle">
+            <Setter Property="Margin" Value="8 8 8 8" />
+            <Setter Property="HeaderPrefixContent" Value="☺" />
+            <Setter Property="HeaderSuffixContent" Value="MAIN" />
+        </Style>    
+    </Window.Resources>    
+    
+    <dragablz:TabablzControl Style="{StaticResource TabStyle}" x:Name="TabablzControl">
+        <dragablz:TabablzControl.InterTabController>
+            <dragablz:InterTabController>
+                <dragablz:InterTabController.InterTabClient>
+                    <keepWindowOpen:CustomInterTabClient />
+                </dragablz:InterTabController.InterTabClient>
+            </dragablz:InterTabController>
+        </dragablz:TabablzControl.InterTabController>        
+        <TabItem Header="Fruit" IsSelected="True">
+            <Grid Margin="8 8 8 8">
+                <ItemsControl>
+                    <TextBlock>Apple</TextBlock>
+                    <TextBlock>Banana</TextBlock>
+                    <TextBlock>Pear</TextBlock>
+                </ItemsControl>
+            </Grid>            
+        </TabItem>
+        <TabItem Header="Vegetable" IsSelected="True">
+            <Grid Margin="8 8 8 8">
+                <ItemsControl>
+                    <TextBlock>Brocolli</TextBlock>
+                    <TextBlock>Cabbage</TextBlock>
+                    <TextBlock>Carrot</TextBlock>                    
+                </ItemsControl>
+            </Grid>            
+        </TabItem>
+        <TabItem Header="Dairy" IsSelected="True">
+            <Grid Margin="8 8 8 8">
+                <ItemsControl>
+                    <TextBlock>Milk</TextBlock>
+                    <TextBlock>Cheese</TextBlock>
+                    <TextBlock>Egg</TextBlock>                    
+                </ItemsControl>
+            </Grid>            
+        </TabItem>
+    </dragablz:TabablzControl>
+</Window>
