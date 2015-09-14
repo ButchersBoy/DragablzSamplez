@@ -41,7 +41,7 @@ namespace Common
             get { return _interTabClient; }
         }
 
-        public Func<object> NewItemFactory
+        public static Func<object> NewItemFactory
         {
             get { return () => new TabContent("Introduction", new IntroductionPage()); }
         }

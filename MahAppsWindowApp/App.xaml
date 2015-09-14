@@ -18,7 +18,7 @@
             <Style TargetType="{x:Type dragablz:TabablzControl}" BasedOn="{StaticResource {x:Type dragablz:TabablzControl}}">
                 <Setter Property="ItemContainerStyle" Value="{StaticResource TrapezoidDragableTabItemStyle}" />
                 <Setter Property="AdjacentHeaderItemOffset" Value="-12" />
-                <Setter Property="NewItemFactory" Value="{Binding NewItemFactory}" />
+                <Setter Property="NewItemFactory" Value="{x:Static common:MainWindowViewModel.NewItemFactory}" />
                 <Setter Property="ShowDefaultAddButton" Value="True" />
                 <Setter Property="ShowDefaultCloseButton" Value="True" />
                 <Setter Property="CustomHeaderItemTemplate">
