@@ -16,7 +16,7 @@
             </ResourceDictionary.MergedDictionaries>
 
             <Style TargetType="{x:Type dragablz:TabablzControl}" BasedOn="{StaticResource MahAppsTabablzControlStyle}">
-                <Setter Property="NewItemFactory" Value="{Binding NewItemFactory}" />
+                <Setter Property="NewItemFactory" Value="{x:Static common:MainWindowViewModel.NewItemFactory}" />
                 <Setter Property="ShowDefaultAddButton" Value="True" />
                 <Setter Property="ShowDefaultCloseButton" Value="True" />
             </Style>
