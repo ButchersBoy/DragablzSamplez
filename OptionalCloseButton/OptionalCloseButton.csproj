@@ -54,9 +54,9 @@
     <StartupObject>OptionalCloseButton.Boot</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Dragablz, Version=0.0.2.122, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Dragablz, Version=0.0.2.143, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Dragablz.0.0.2.122\lib\net45\Dragablz.dll</HintPath>
+      <HintPath>..\packages\Dragablz.0.0.2.143\lib\net45\Dragablz.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

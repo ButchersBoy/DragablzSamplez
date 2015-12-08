@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2CFC29
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeepWindowOpen", "KeepWindowOpen\KeepWindowOpen.csproj", "{9BE26F7F-8024-4182-86A0-8CC1B991276D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SidePanels", "SidePanels\SidePanels.csproj", "{8766B9A7-E34B-4DFD-8C8A-2D46238C7189}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{9BE26F7F-8024-4182-86A0-8CC1B991276D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BE26F7F-8024-4182-86A0-8CC1B991276D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BE26F7F-8024-4182-86A0-8CC1B991276D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8766B9A7-E34B-4DFD-8C8A-2D46238C7189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8766B9A7-E34B-4DFD-8C8A-2D46238C7189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8766B9A7-E34B-4DFD-8C8A-2D46238C7189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8766B9A7-E34B-4DFD-8C8A-2D46238C7189}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

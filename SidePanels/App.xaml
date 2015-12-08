@@ -1,0 +1,26 @@
+﻿<Application x:Class="SidePanels.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:dragablz="http://dragablz.net/winfx/xaml/dragablz"
+             xmlns:sidePanels="clr-namespace:SidePanels"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>                
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Dragablz;component/Themes/materialdesign.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <dragablz:InterTabController x:Key="InterTabController" x:Shared="False" MoveWindowWithSolitaryTabs="False">
+                <dragablz:InterTabController.InterTabClient>
+                    <sidePanels:MyInterTabClient />
+                </dragablz:InterTabController.InterTabClient>
+            </dragablz:InterTabController>
+            <Style TargetType="dragablz:TabablzControl" BasedOn="{StaticResource MaterialDesignTabablzControlStyle}">
+                <Setter Property="InterTabController" Value="{StaticResource InterTabController}" />                        
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
