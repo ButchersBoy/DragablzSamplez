@@ -13,7 +13,7 @@
         </Style>    
     </Window.Resources>    
     
-    <dragablz:TabablzControl Style="{StaticResource TabStyle}" x:Name="TabablzControl">
+    <dragablz:TabablzControl Style="{StaticResource TabStyle}" x:Name="TabablzControl" EmptyHeaderSizingHint="PreviousTab">
         <dragablz:TabablzControl.InterTabController>
             <dragablz:InterTabController>
                 <dragablz:InterTabController.InterTabClient>
