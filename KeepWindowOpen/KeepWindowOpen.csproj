@@ -88,8 +88,8 @@
     <Resource Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Dragablz, Version=0.0.2.147, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Dragablz.0.0.2.147\lib\net40\Dragablz.dll</HintPath>
+    <Reference Include="Dragablz, Version=0.0.3.150, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dragablz.0.0.3.150\lib\net40\Dragablz.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="PresentationCore" />
